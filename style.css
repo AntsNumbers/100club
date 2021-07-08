@@ -1,0 +1,97 @@
+* {
+  margin: 5;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 40%;
+  height: auto;
+  padding: 10px;
+  padding-bottom: -20px;
+}
+
+body {
+  font-family: sans-serif;
+  color: rgb(12, 12, 12);
+  line-height: 1.5;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  background: #ceb9da;
+}
+
+header {
+  background-color: #ceb9da;
+  padding-left: 50px;
+  text-align: left;
+  font-size: 25px;
+  color: white;
+}
+
+.text {
+  float: left;
+  text-align: left;
+  font-size: 20px;
+  padding-left: 50px;
+  width: 70%;
+  background-color: #ceb9da;
+}
+
+.winAnnounce {
+  float: left;
+  text-align: left;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 0px;
+  width: 70%;
+  background-color: #ceb9da;
+}
+
+.winDetails {
+  float: left;
+  text-align: left;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 0px;
+  width: 70%;
+  background-color: #ceb9da;
+}
+
+.hidden {
+  display: none;
+}
+
+.winning {
+  float: left;
+  text-align: left;
+  font-size: 100px;
+  font-weight: bold;
+  width: 70%;
+  background-color: #ceb9da;
+}
+
+/* .input {
+  font-size: 25px;
+  text-align: left;
+  font-weight: bold;
+} */
+
+.reset {
+  margin-top: 100px;
+  float: left;
+  text-align: left;
+}
+
+.divider{
+  width:50px;
+  height:auto;
+  display:inline-block;
+}
